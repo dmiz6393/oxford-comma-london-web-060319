@@ -7,8 +7,9 @@ elsif array.length==2
     return "#{array[0]} and #{array[1]}"
 
 else
- array.map {|i| + i.to_s}.join(",")
-   lastStr = array.pop
+ first_array= array.map {|i| + i.to_s}.join(",")
+ lastStr = first_array.pop
+ 
   end
 end
 
