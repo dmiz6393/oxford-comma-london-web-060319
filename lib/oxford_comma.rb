@@ -9,7 +9,7 @@ elsif array.length==2
 else
  first_array= array.map {|i| + i.to_s}.join(",")
  lastStr = first_array.pop
- 
+ first_array<< ", and #{lastStr}"
   end
 end
 
