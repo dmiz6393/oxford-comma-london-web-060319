@@ -8,7 +8,7 @@ elsif array.length==2
 
 else
  last=array.pop
-array.join(", ")<< ",and #{last}" 
+array.join(", ")<< ", and #{last}" 
   end
 end
 
