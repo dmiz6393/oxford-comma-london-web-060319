@@ -7,9 +7,9 @@ elsif array.length==2
     return "#{array[0]} and #{array[1]}"
 
 else
- first_array= array.map {|i| + i.to_s}.join(",")
- last= first_array[-1]
- first_array.pop() << ", and #{last}" 
+ last=array[-1]
+ array.map {|i| + i.to_s}.join(",")
+array.pop << ", and #{last}" 
   end
 end
 
