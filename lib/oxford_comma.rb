@@ -8,7 +8,7 @@ elsif array.length==2
 
 else
  array.map {|i| + i.to_s}.join(",")
-  
+   lastStr = array.pop
   end
 end
 
