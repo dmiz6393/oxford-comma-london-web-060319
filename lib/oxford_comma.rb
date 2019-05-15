@@ -9,7 +9,7 @@ elsif array.length==2
 else
  last=array[-1]
  array.map {|i| + i.to_s}.join(",")
-array.slice(-1) << ", and #{last}" 
+array << ", and #{last}" 
   end
 end
 
